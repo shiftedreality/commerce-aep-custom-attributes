@@ -1,0 +1,27 @@
+{
+    "name": "adobe/commerce-aep-custom-attributes",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Oleg Posyniak",
+            "email": "posyniak@adobe.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adobe\\CommerceAepCustomAttributes\\": ""
+        }
+    },
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/data-services": "^7.1",
+        "magento/module-sales-orders-data-exporter": "^103.0.0"
+    }
+}
